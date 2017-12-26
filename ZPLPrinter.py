@@ -97,6 +97,8 @@ try:
     
     remove(filePath)
     logger.debug("Have removed the temp file {}".format(filePath))
+    
+    print("finishsed...")
 
 except Exception:
     logging.exception('Caught this error....')
